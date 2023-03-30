@@ -13,7 +13,7 @@ const Nav = () => {
     }
 
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
+        <div className='sticky w-full h-20 shadow-xl z-[9999] bg-white top-0'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Image
                     src="/../public/assets/initials-logo-nobg.png"
@@ -46,9 +46,7 @@ const Nav = () => {
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
                 <div className={nav
                     ? 'fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-white p-[1.5rem] ease-in duration-500'
-                    : 'fixed left-[-100%] top-0 p-[1.5rem] ease-in duration-500'
-                }
-                >
+                    : 'fixed left-[-100%] top-0 p-[1.5rem] ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Image
@@ -83,7 +81,7 @@ const Nav = () => {
                                 <li className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-40'>
+                        <div className='gf:pt-[5rem] xxs:pt-[8rem] pt-[10rem]'>
                             <p className=' uppercase tracking-widest text-[#059ae6] font-medium'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
