@@ -9,10 +9,16 @@ const About = () => {
                     <p className='uppercase text-xl tracking-widest text-[#059ae6]'>About</p>
                     <h2 className='py-4'>Who I Am</h2>
                     <p className='py-2 text-gray-600'>
-                        say some stuff here. I just need to make some space
+                        I earned a certificate in Full-Stack Web Development from the University of Miami in order
+                        to develop proficiency in technologies like JS/TS using Next.js with React,
+                        CSS via Tailwind and Bulma, HTML, as well as SQL and NoSQL while using ODMs like Sequelize and Mongoose.js.
+                        I practiced operating in Agile team development frameworks, Git flow, data containerization, and more.
                     </p>
                     <p className='py-2 text-gray-600'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore harum maxime quo amet cupiditate atque dolore esse assumenda, voluptates sint sapiente impedit quasi ipsam voluptatum ipsa, aut illum veritatis minus!
+                        I&apos;m seeking a hybrid/remote, cloud-based position that facilitates global collaboration and meaningful contribution.
+                        I enjoy cross-functional group efforts to meet goals and I like to over-deliver on client expectations.
+                        My current project is a social media site designed to help musicians get jobs within the
+                        music industry by providing shareable profiles and leveraging investments through ISA agreements.
                     </p>
                     <p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects </p>
                 </div>

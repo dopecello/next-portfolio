@@ -18,7 +18,7 @@ const Nav = () => {
                 <Image
                     src="/../public/assets/initials-logo-nobg.png"
                     alt="logo with the initials W, C, and L to represent the creators name"
-                    width='50'
+                    width='80'
                     height='50' />
                 <div>
                     <ul className='hidden md:flex'>
