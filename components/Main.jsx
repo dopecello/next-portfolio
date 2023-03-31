@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Main = () => {
     return (
-        <div className='pt-0 w-full text-center z-0 mt-5'>
+        <div className='lg:pt-[9rem] w-full text-center z-0 mt-5'>
             <div className='w-full h-full mx-auto flex justify-center items-center'>
                 <div>
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together.</p>
@@ -13,7 +13,7 @@ const Main = () => {
                         Hi, I&apos;m <span className='text-[#059ae6]'>William,</span>
                     </h1>
                     <h1 className='py-2 text-gray-700'>
-                        a Full-Stack Web Developer
+                        a Front-End Web Developer
                     </h1>
                     <div>
                         <p className='py-4 text-gray-600 gf:max-w-[95%] xxs:max-w-[90%] xs:max-w-[83%] sm:max-w-[83%] md:max-w-[75%] m-auto'>
