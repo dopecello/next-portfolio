@@ -14,10 +14,11 @@ module.exports = {
       'xs': {'min': '390px', 'max': '639px'},
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      colors: {
+        'lite-blue': '#059ae6'
+      }
+    },
   },
   plugins: [],
 };
-
-
-//iphonese : 375px
