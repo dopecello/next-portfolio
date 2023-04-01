@@ -14,12 +14,13 @@ const Skills = () => {
         {src: "/../public/assets/gcp.png", alt: "The Google Cloud Platform logo", h3: "GCP"},
         {src: "/../public/assets/tailwind.png", alt: "The Tailwind CSS logo", h3: "Tailwind"},
         {src: "/../public/assets/bulma.png", alt: "The Bulma logo", h3: "Bulma"},
-        {src: "/../public/assets/mui.png", alt: "The Material UI logo", h3: "Material UI"},
         {src: "/../public/assets/firebase-transformed.png", alt: "The Firebase logo", h3: "Firebase"},
+        {src: "/../public/assets/gql.png", alt: "The Graph QL logo", h3: "GraphQL"},
         {src: "/../public/assets/mysql-transformed.png", alt: "The MySQL logo", h3: "MySQL"},
         {src: "/../public/assets/sqlize-resize.png", alt: "The Sequelize ORM logo", h3: "Sequelize"},
         {src: "/../public/assets/mongo.png", alt: "The MongoDB logo", h3: "Mongo"},
         {src: "/../public/assets/mongoose.png", alt: "The Mongoose ODM logo", h3: "Mongoose"},
+        // {src: "/../public/assets/mui.png", alt: "The Material UI logo", h3: "Material UI"},
     ]
 
     return (
