@@ -5,12 +5,12 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Main = () => {
     return (
-        <div className='lg:pt-[15rem] pt-6 w-full text-center z-0'>
+        <div className='md:pt-[15rem] pt-6 w-full text-center z-0'>
             <div className='w-full h-full mx-auto flex justify-center items-center'>
                 <div>
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together.</p>
                     <h1 className='py-4 text-gray-700'>
-                        Hi, I&apos;m <span className='text-[#059ae6]'>William,</span>
+                        Hi, I&apos;m <span className='text-lite-blue'>William,</span>
                     </h1>
                     <h1 className='py-2 text-gray-700'>
                         a Front-End Web Developer

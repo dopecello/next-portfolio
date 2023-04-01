@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import React from 'react'
 
 const Skills = () => {
 
@@ -24,7 +25,7 @@ const Skills = () => {
     return (
         <div className='w-full lg:h-screen p-2 pt-10'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-                <p className='text-xl tracking-widest uppercase text-[#059ae6]'>Skills</p>
+                <p className='text-xl tracking-widest uppercase text-lite-blue'>Skills</p>
                 <h2 className='py-4'>I&apos;m Experienced In</h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
                     {imageArr.map((index) => { 

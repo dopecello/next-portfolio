@@ -82,7 +82,7 @@ const Nav = () => {
                             </Link>
                         </ul>
                         <div className='gf:pt-[5rem] xxs:pt-[8rem] pt-[10rem]'>
-                            <p className=' uppercase tracking-widest text-[#059ae6] font-medium'>Let&apos;s Connect</p>
+                            <p className=' uppercase tracking-widest text-lite-blue font-medium'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
                                     <FaLinkedinIn />
