@@ -24,7 +24,7 @@ const Skills = () => {
     ]
 
     return (
-        <div id='skills' className='w-full lg:h-screen p-2 lg:pt-[20rem] lg:pb-[19rem]'>
+        <div id='skills' className='w-full xl:h-screen py-9 px-2 xl:pt-[20rem] xl:pb-[19rem]'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
                 <p className='text-xl tracking-widest uppercase text-lite-blue'>Skills</p>
                 <h2 className='py-4'>I&apos;m Experienced In</h2>

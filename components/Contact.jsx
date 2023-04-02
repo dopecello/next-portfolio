@@ -10,7 +10,7 @@ import { flushSync } from 'react-dom'
 const Contact = () => {
     return (
         <div id='contact' className='w-full lg:-h-screen'>
-            <div className='max-w-[1240px] m-auto px-2 lg:py-20 w-full'>
+            <div className='max-w-[1240px] m-auto px-2 xl:py-20 w-full'>
                 <p className='text-xl tracking-widest uppercase text-lite-blue py-6'>Contact</p>
                 <div className='grid lg:grid-cols-5 gap-8'>
                     {/* left side */}
