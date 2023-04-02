@@ -20,7 +20,7 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#A314A3] to-[#CE1CCE] text-white
+    @apply rounded-xl uppercase bg-gradient-to-r from-[#04348B] to-[#0854e2d0] text-white font-semibold
   }
 
 }
