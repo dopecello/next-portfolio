@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
@@ -8,33 +8,50 @@ import { BsFillPersonLinesFill } from "react-icons/bs"
 const Nav = () => {
 
     const [nav, setNav] = useState(false)
+    const [shadow, setShadow] = useState(false)
+
+
     const handleNav = () => {
         setNav(!nav)
     }
 
+    useEffect(() => {
+        const handleShadow = () => {
+            if (window.scrollY >= 120) {
+                setShadow(true)
+            } else {
+                setShadow(false)
+            }
+        }
+        window.addEventListener('scroll', handleShadow)
+    }, [])
+
+
     return (
-        <div className='sticky w-full h-20 shadow-xl z-[9999] bg-white top-0'>
+        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[9999] bg-white top-0' : 'fixed w-full h-20 z-[9999] bg-white top-0'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Image
-                    src="/../public/assets/initials-logo-nobg.png"
-                    alt="logo with the initials W, C, and L to represent the creators name"
-                    width='80'
-                    height='50' />
+                <Link href="/#home" scroll={false}>
+                    <Image
+                        src="/../public/assets/initials-logo-nobg.png"
+                        alt="logo with the initials W, C, and L to represent the creators name"
+                        width='80'
+                        height='50' />
+                </Link>
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href="/">
+                        <Link href="/#home" scroll={false}>
                             <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#about" scroll={false}>
                             <li className="ml-10 text-sm uppercase hover:border-b">About</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#skills" scroll={false}>
                             <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#projects" scroll={false}>
                             <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#contact" scroll={false}>
                             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
                         </Link>
                     </ul>
