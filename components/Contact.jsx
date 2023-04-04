@@ -5,11 +5,10 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link'
-import { flushSync } from 'react-dom'
 
 const Contact = () => {
     return (
-        <div id='contact' className='w-full lg:-h-screen'>
+        <div id='contact' className='w-full z-[1]'>
             <div className='max-w-[1240px] m-auto px-2 xl:py-20 w-full'>
                 <p className='text-xl tracking-widest uppercase text-lite-blue py-6'>Contact</p>
                 <div className='grid lg:grid-cols-5 gap-8'>

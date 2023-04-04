@@ -21,7 +21,7 @@
   }
 
   button {
-    @apply rounded-xl uppercase bg-gradient-to-r from-[#04348B] to-[#0854e2d0] text-white font-semibold
+    @apply rounded-xl uppercase bg-gradient-to-r from-[#001f54] to-[#002668] text-white font-semibold
   }
 
 }

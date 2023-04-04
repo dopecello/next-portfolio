@@ -6,8 +6,7 @@ const About = () => {
         <div id='about' className='w-full p-2 flex items-center xl:pt-[20rem] xl:pb-[10rem]'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
-                    <p className='uppercase text-xl tracking-widest text-lite-blue'>About</p>
-                    <h2 className='py-4'>Who I Am</h2>
+                    <p className='uppercase text-xl tracking-widest py-4 text-lite-blue'>About</p>
                     <p className='py-2 text-gray-600'>
                         I earned a certificate in Full-Stack Web Development from the University of Miami in order
                         to develop proficiency in technologies like JS/TS using Next.js with React,
