@@ -16,7 +16,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'lite-blue': '#059ae6'
+        'lite-blue': '#059ae6',
+        'navy-blue': '#001f54'
       }
     },
   },
