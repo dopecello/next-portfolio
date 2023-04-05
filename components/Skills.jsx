@@ -26,12 +26,11 @@ const Skills = () => {
     return (
         <div id='skills' className='w-full xl:h-screen py-9 px-2 xl:pt-[20rem] xl:pb-[19rem]'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-                <p className='text-xl tracking-widest uppercase text-lite-blue'>Skills</p>
-                <h2 className='py-4'>I&apos;m Experienced In</h2>
+                <p className='text-xl tracking-widest uppercase text-lite-blue py-6'>Skills</p>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
                     {imageArr.map((index) => { 
                     return(
-                    <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300 border border-black/5' key={index}>
+                    <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300 border border-black/20 bg-white' key={index}>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src={index.src} alt={index.alt} width="82" height="82" />

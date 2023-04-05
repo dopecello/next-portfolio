@@ -13,7 +13,7 @@ const Contact = () => {
                 <p className='text-xl tracking-widest uppercase text-lite-blue py-6'>Contact</p>
                 <div className='grid lg:grid-cols-5 gap-8'>
                     {/* left side */}
-                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-100 rounded-xl p-4 border border-black/5'>
+                    <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-300 bg-slate-50 rounded-xl p-4 border border-black/20'>
                         <div className='lg:p-4 h-full'>
                             <div>
                                 <Image
@@ -46,7 +46,7 @@ const Contact = () => {
                         </div>
                     </div>
                     {/* right-side */}
-                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-100 rounded-xl lg:p-4 border border-black/5'>
+                    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-300 bg-slate-50 rounded-xl lg:p-4 border border-black/20'>
                         <div className='p-4'>
                             <form>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -79,7 +79,7 @@ const Contact = () => {
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/#home' scroll={false}>
-                    <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/10'>
+                    <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-105 ease-in duration-300 border bg-white border-black/20'>
                         <HiOutlineChevronDoubleUp size={30} className='text-gray-400' />
                     </div>
                 </Link>

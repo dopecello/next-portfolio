@@ -28,7 +28,10 @@ const Nav = () => {
 
 
     return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[9999] bg-white top-0' : 'fixed w-full h-20 z-[9999] bg-white top-0'}>
+        <div className={shadow
+            ? 'fixed w-full h-20 z-[10] bg-gradient-to-b from-white to-slate-100 top-0 transition shadow-xl'
+            : 'bg-gradient-to-b from-white to-slate-100 fixed w-full h-20 z-[10] top-0 transition shadow-none'
+        }>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href="/#home" scroll={false}>
                     <Image
@@ -123,3 +126,7 @@ const Nav = () => {
 }
 
 export default Nav
+
+
+//RiMoonClearFill for dark mode
+//MdLightMode for light mode
