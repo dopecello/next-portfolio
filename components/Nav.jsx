@@ -10,6 +10,13 @@ const Nav = () => {
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
 
+    const navContents = [
+        { title: 'Home', href: '/#home', id: 1 },
+        { title: 'About', href: '/#about', id: 2 },
+        { title: 'Skills', href: '/#skills', id: 3 },
+        { title: 'Projects', href: '/#projects', id: 4 },
+        { title: 'Contact', href: '/#contact', id: 5 }
+    ]
 
     const handleNav = () => {
         setNav(!nav)
@@ -42,30 +49,26 @@ const Nav = () => {
                 </Link>
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href="/#home" scroll={false}>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-                        </Link>
-                        <Link href="/#about" scroll={false}>
-                            <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-                        </Link>
-                        <Link href="/#skills" scroll={false}>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-                        </Link>
-                        <Link href="/#projects" scroll={false}>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
-                        </Link>
-                        <Link href="/#contact" scroll={false}>
-                            <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
-                        </Link>
+                        {navContents.map((index) => {
+                            return (
+                                <Link href={index.href} scroll={false} key={index.id}>
+                                    <li className="ml-10 text-sm uppercase hover:border-b">{index.title}</li>
+                                </Link>
+                            )
+                        })
+                        }
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
                         <AiOutlineMenu size={25} />
                     </div>
                 </div>
             </div>
+
+            {/* Mobile Menu */}
+
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
                 <div className={nav
-                    ? 'fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-white p-[1.5rem] ease-in duration-500'
+                    ? 'fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-slate-100 p-[1.5rem] ease-in duration-500'
                     : 'fixed left-[-100%] top-0 p-[1.5rem] ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
@@ -75,7 +78,7 @@ const Nav = () => {
                                 width='87'
                                 height='85'
                             />
-                            <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-300 p-2 cursor-pointer border border-black/5'>
+                            <div onClick={handleNav} className='rounded-full shadow-md bg-white p-2 cursor-pointer border border-black/20'>
                                 <AiOutlineClose />
                             </div>
                         </div>
@@ -85,21 +88,14 @@ const Nav = () => {
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Home</li>
-                            </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>About</li>
-                            </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Skills</li>
-                            </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Projects</li>
-                            </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Contact</li>
-                            </Link>
+                            {navContents.map((index) => {
+                                return (
+                                    <Link href={index.href} scroll={false} onClick={handleNav} key={index.id}>
+                                        <li className='py-4 text-sm'>{index.title}</li>
+                                    </Link>
+                                )
+                            })
+                            }
                         </ul>
                         <div className='gf:pt-[5rem] xxs:pt-[8rem] pt-[10rem]'>
                             <p className=' uppercase tracking-widest text-lite-blue font-medium'>Let&apos;s Connect</p>

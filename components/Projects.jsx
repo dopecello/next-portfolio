@@ -6,8 +6,8 @@ import ProjectItem from './ProjectItem'
 const Projects = () => {
 
     const projItemArr = [
-        { title: "OpenWeather API Forecast Checker", alt: "Weather Forecasting Application", tech: "JavaScript, Bulma", bgImg: weatherApp, projectURL: "https://dopecello.github.io/weather-app/", githubURL: "https://github.com/dopecello/weather-app" },
-        { title: "SupaHot Online Marketplace", alt: "SupaHot Online Marketplace", tech: "CRA, GraphQL, MongoDB", bgImg: firesale, projectURL: "https://supa-hot-firesales.herokuapp.com/", githubURL: "https://github.com/brian-gee/supa-hot-firesale" },
+        { title: "OpenWeather API Forecast Checker", alt: "Weather Forecasting Application", tech: "JavaScript, Bulma", bgImg: weatherApp, projectURL: "https://dopecello.github.io/weather-app/", githubURL: "https://github.com/dopecello/weather-app", id: 1 },
+        { title: "SupaHot Online Marketplace", alt: "SupaHot Online Marketplace", tech: "CRA, GraphQL, MongoDB", bgImg: firesale, projectURL: "https://supa-hot-firesales.herokuapp.com/", githubURL: "https://github.com/brian-gee/supa-hot-firesale", id: 2 },
     ]
 
     return (
@@ -17,7 +17,7 @@ const Projects = () => {
                 <div className='grid md:grid-cols-2 gap-8'>
                     {projItemArr.map((index) => {
                         return (
-                            <ProjectItem key={index}
+                            <ProjectItem key={index.id}
                                 title={index.title}
                                 alt={index.alt}
                                 tech={index.tech}
