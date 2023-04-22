@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
+import initialsLogo from '../public/static/images/initials-logo-nobg.png'
 
 const Nav = () => {
 
@@ -41,7 +42,7 @@ const Nav = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href="/#home" scroll={false}>
                     <Image
-                        src="/../public/static/images/initials-logo-nobg.png"
+                        src={initialsLogo}
                         alt="logo with the initials W, C, and L to represent the creators name"
                         width='80'
                         height='50' />
@@ -72,7 +73,7 @@ const Nav = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Image
-                                src='/../public/static/images/initials-logo-nobg.png'
+                                src={initialsLogo}
                                 alt='logo with the initials W, C, and L to represent the creators name'
                                 width='87'
                                 height='85'

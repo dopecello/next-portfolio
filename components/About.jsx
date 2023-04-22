@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import workRemoteImg from '../public/static/images/remote_working.webp'
 
 const About = () => {
     return (
@@ -23,7 +24,7 @@ const About = () => {
                 </div>
                 <div className='w-full h-auto m-auto shadow-xl bg-white shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 border border-black/5'>
                     <Image
-                        src='/../public/static/images/remote_working.webp'
+                        src={workRemoteImg}
                         alt='A cozy outdoor work remote setup surrounded by tropical nature.'
                         width='766'
                         height='375'

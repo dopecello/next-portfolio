@@ -1,9 +1,9 @@
 import React from 'react'
-import weatherApp from '../public/static/images/weatherapp.png'
-import firesale from '../public/static/images/firesale-final.png'
+import weatherApp from '/public/static/images/weatherapp.png'
+import firesale from '/public/static/images/firesale-final.png'
 import ProjectItem from './ProjectItem'
-import mealfind from '../public/static/images/mealfind.png'
-import opus from '../public/static/images/opus.png'
+import mealfind from '/public/static/images/mealfind.png'
+import opus from '/public/static/images/opus.png'
 
 const Projects = () => {
 

@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link'
+import contactImg from '../public/static/images/office.jpg'
 
 const Contact = () => {
     return (
@@ -16,7 +17,7 @@ const Contact = () => {
                         <div className='lg:p-4 h-full'>
                             <div>
                                 <Image
-                                    src='/../public/assets/office.jpg'
+                                    src={contactImg}
                                     alt='My dream home office setup!'
                                     width='1280'
                                     height='720'
