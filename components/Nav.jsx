@@ -100,18 +100,21 @@ const Nav = () => {
                         <div className='gf:pt-[5rem] xxs:pt-[8rem] pt-[10rem]'>
                             <p className=' uppercase tracking-widest text-lite-blue font-medium'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
-                                    <FaLinkedinIn />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
-                                    <FaGithub />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
-                                    <AiOutlineMail />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
-                                    <BsFillPersonLinesFill />
-                                </div>
+                                <Link href='https://www.linkedin.com/in/williamcareylocke/' rel='noopener norefferer' target='_blank'>
+                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
+                                        <FaLinkedinIn />
+                                    </div>
+                                </Link>
+                                <Link href='https://github.com/dopecello' rel='noopener norefferer' target='_blank'>
+                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
+                                        <FaGithub />
+                                    </div>
+                                </Link>
+                                <Link href='https://mail.google.com/mail/?view=cm&source=mailto&to=williamlocke.cello@gmail.com' rel='noopener norefferer' target='_blank'>
+                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
+                                        <AiOutlineMail />
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>

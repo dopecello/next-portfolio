@@ -30,18 +30,21 @@ const Contact = () => {
                                 <div>
                                     <p className='uppercase pt-8'>Connect with me</p>
                                     <div className='flex items-center justify-between py-4'>
-                                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
-                                            <FaLinkedinIn />
-                                        </div>
-                                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
-                                            <FaGithub />
-                                        </div>
-                                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
-                                            <AiOutlineMail />
-                                        </div>
-                                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
-                                            <BsFillPersonLinesFill />
-                                        </div>
+                                        <Link href='https://www.linkedin.com/in/williamcareylocke/' rel='noopener norefferer' target='_blank'>
+                                            <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
+                                                <FaLinkedinIn />
+                                            </div>
+                                        </Link>
+                                        <Link href='https://github.com/dopecello' rel='noopener norefferer' target='_blank'>
+                                            <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
+                                                <FaGithub />
+                                            </div>
+                                        </Link>
+                                        <Link href='https://mail.google.com/mail/?view=cm&source=mailto&to=williamlocke.cello@gmail.com' rel='noopener norefferer' target='_blank'>
+                                            <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
+                                                <AiOutlineMail />
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

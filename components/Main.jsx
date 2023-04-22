@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -25,18 +26,21 @@ const Main = () => {
                         </p>
                     </div>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
-                            <FaLinkedinIn size={20} />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
-                            <FaGithub size={20} />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
-                            <AiOutlineMail size={20} />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
-                            <BsFillPersonLinesFill size={20} />
-                        </div>
+                        <Link href='https://www.linkedin.com/in/williamcareylocke/' rel='noopener norefferer' target='_blank'>
+                            <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
+                                <FaLinkedinIn size={20} />
+                            </div>
+                        </Link>
+                        <Link href='https://github.com/dopecello' rel='noopener norefferer' target='_blank'>
+                            <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
+                                <FaGithub size={20} />
+                            </div>
+                        </Link>
+                        <Link href='https://mail.google.com/mail/?view=cm&source=mailto&to=williamlocke.cello@gmail.com' rel='noopener norefferer' target='_blank'>
+                            <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer border border-black/20 transition bg-white hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in-out duration-300 '>
+                                <AiOutlineMail size={20} />
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
