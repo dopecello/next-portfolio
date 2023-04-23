@@ -21,7 +21,7 @@ const Contact = () => {
                                     alt='My dream home office setup!'
                                     width='1280'
                                     height='720'
-                                    className='rounded-xl hover:scale-105 ease-in duration-300' />
+                                    className='rounded-xl lg:hover:scale-105 ease-in duration-300' />
                             </div>
                             <div>
                                 <h2 className='py-2'>William Locke</h2>
@@ -40,7 +40,7 @@ const Contact = () => {
                                                 <FaGithub />
                                             </div>
                                         </Link>
-                                        <Link href='https://mail.google.com/mail/?view=cm&source=mailto&to=williamlocke.cello@gmail.com' rel='noopener norefferer' target='_blank'>
+                                        <Link href='mailto:williamlocke.dev@gmail.com'>
                                             <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
                                                 <AiOutlineMail />
                                             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/#home' scroll={false}>
-                    <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-105 ease-in duration-300 border bg-white border-black/20'>
+                    <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer lg:hover:scale-105 ease-in duration-300 border bg-white border-black/20'>
                         <HiOutlineChevronDoubleUp size={30} className='text-gray-400' />
                     </div>
                 </Link>

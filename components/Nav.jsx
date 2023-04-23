@@ -52,7 +52,11 @@ const Nav = () => {
                         {navContents.map((index) => {
                             return (
                                 <Link href={index.href} scroll={false} key={index.id}>
-                                    <li className="ml-10 text-sm uppercase hover:border-b">{index.title}</li>
+                                    <li className="ml-10 text-sm uppercase">
+                                        <span className="border-b border-transparent hover:border-slate-600">
+                                            {index.title}
+                                        </span>
+                                    </li>
                                 </Link>
                             )
                         })
@@ -101,17 +105,17 @@ const Nav = () => {
                             <p className=' uppercase tracking-widest text-lite-blue font-medium'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <Link href='https://www.linkedin.com/in/williamcareylocke/' rel='noopener norefferer' target='_blank'>
-                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
+                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer lg:hover:scale-105 ease-in duration-300 border border-black/5'>
                                         <FaLinkedinIn />
                                     </div>
                                 </Link>
                                 <Link href='https://github.com/dopecello' rel='noopener norefferer' target='_blank'>
-                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
+                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer lg:hover:scale-105 ease-in duration-300 border border-black/5'>
                                         <FaGithub />
                                     </div>
                                 </Link>
-                                <Link href='https://mail.google.com/mail/?view=cm&source=mailto&to=williamlocke.cello@gmail.com' rel='noopener norefferer' target='_blank'>
-                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 border border-black/5'>
+                                <Link href='mailto:williamlocke.dev@gmail.com'>
+                                    <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer lg:hover:scale-105 ease-in duration-300 border border-black/5'>
                                         <AiOutlineMail />
                                     </div>
                                 </Link>

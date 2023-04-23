@@ -11,12 +11,12 @@ const ProjectItem = ({ title, alt, tech, bgImg, projectURL, githubURL }) => {
                 <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
                 <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
                 <div className='flex justify-center gap-6'>
-                    <div className='rounded-full shadow-lg bg-slate-100 p-4 cursor-pointer transition hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in duration-75'>
+                    <div className='rounded-full shadow-lg bg-slate-100 p-4 cursor-pointer transition hover:bg-lite-blue hover:text-slate-100 lg:hover:scale-105 ease-in duration-75'>
                         <Link href={githubURL} title='GitHub Repo' target='_blank' rel='noopener noreferrer'>
                             <FaGithubSquare size={30} />
                         </Link>
                     </div>
-                    <div className='rounded-full shadow-lg bg-slate-100 p-4 cursor-pointer transition hover:bg-lite-blue hover:text-slate-100 hover:scale-105 ease-in duration-[0ms]'>
+                    <div className='rounded-full shadow-lg bg-slate-100 p-4 cursor-pointer transition hover:bg-lite-blue hover:text-slate-100 lg:hover:scale-105 ease-in duration-[0ms]'>
                         <Link href={projectURL} title='Deployed Project' target='_blank' rel='noopener noreferrer'>
                             <FaExternalLinkAlt size={30} />
                         </Link>

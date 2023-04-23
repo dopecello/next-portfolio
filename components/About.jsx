@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import workRemoteImg from '../public/static/images/remote_working.webp'
+import Link from 'next/link'
 
 const About = () => {
     return (
@@ -20,9 +21,11 @@ const About = () => {
                         My current project is a social media site designed to help musicians get jobs within the
                         music industry by providing shareable profiles and leveraging investments through ISA agreements.
                     </p>
-                    <p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects </p>
+                    <Link href={'/#projects'} scroll={false}>
+                        <p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects </p>
+                    </Link>
                 </div>
-                <div className='w-full h-auto m-auto shadow-xl bg-white shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 border border-black/5'>
+                <div className='w-full h-auto m-auto shadow-xl bg-white shadow-gray-400 rounded-xl flex items-center justify-center p-4 lg:lg:hover:scale-105 ease-in duration-300 border border-black/5'>
                     <Image
                         src={workRemoteImg}
                         alt='A cozy outdoor work remote setup surrounded by tropical nature.'
