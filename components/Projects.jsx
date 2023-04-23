@@ -15,8 +15,8 @@ const Projects = () => {
     ]
 
     return (
-        <div id='projects' className='max-w-[95%] xl:pt-[13rem] xl:pb-[5rem] px-6 mx-auto'>
-            <div className='max-w-[[1240px]] mx-auto pt-5 pb-10'>
+        <div id='projects' className='w-full xl:pt-[13rem] xl:pb-[5rem]'>
+            <div className='max-w-[1240px] mx-auto px-2 pt-10 pb-10'>
                 <p className='text-xl tracking-widest uppercase py-6 text-lite-blue'>Projects</p>
                 <div className='grid md:grid-cols-2 gap-8'>
                     {projItemArr.map((index) => {
