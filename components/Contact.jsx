@@ -5,6 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link'
 import contactImg from '../public/static/images/office.jpg'
+import ContactForm from './ContactForm'
 
 const Contact = () => {
     return (
@@ -52,33 +53,7 @@ const Contact = () => {
                     </div>
                     {/* right-side */}
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-300 bg-slate-50 rounded-xl lg:p-4 border border-black/20'>
-                        <div className='p-4'>
-                            <form>
-                                <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                                    <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Name</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-200 focus-visible:outline-lite-blue focus-visible:border-lite-blue caret' type="text" />
-                                    </div>
-                                    <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Phone</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-200 focus-visible:outline-lite-blue focus-visible:border-lite-blue' type="text" />
-                                    </div>
-                                </div>
-                                <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Email</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-200 focus-visible:outline-lite-blue focus-visible:border-lite-blue' type="email" />
-                                </div>
-                                <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Subject</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-200 focus-visible:outline-lite-blue focus-visible:border-lite-blue' type="text" />
-                                </div>
-                                <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Message</label>
-                                    <textarea className='border-2 rounded-lg p-3 border-gray-200 focus-visible:outline-lite-blue focus-visible:border-lite-blue' rows='10'></textarea>
-                                </div>
-                                <button className='w-full p-4 mt-4 text-gray-100'>Send Message</button>
-                            </form>
-                        </div>
+                            <ContactForm />
                     </div>
                 </div>
             </div>
