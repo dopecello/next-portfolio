@@ -69,7 +69,7 @@ const ContactForm = () => {
                 <div className='flex flex-col py-2' >
                     <label className='uppercase text-sm py-2'>Message</label>
                     <textarea className='border-2 rounded-lg p-3 border-gray-200 focus-visible:outline-lite-blue focus-visible:border-lite-blue' rows='10' {...register('messageBody', {
-                        required: 'A message under is required before submitting.',
+                        required: 'A message is required before submitting.',
                         maxLength: {
                             value: 5000,
                             message: "Please keep your message under 5000 characters. You're always welcome to schedule a call."
@@ -82,7 +82,7 @@ const ContactForm = () => {
                 </div>
                 <button className='w-full p-4 mt-4 text-gray-100'>Send Message</button>
             </form>
-            {/* <DevTool control={control} /> */}
+            {/* <DevTool control={control} /> */} 
         </div>
     )
 }
