@@ -8,12 +8,12 @@ const Main = () => {
 
         <div id='home' className='md:pt-[19rem] pt-[5rem] w-full text-center z-1'>
             <div className='w-full h-full mx-auto flex justify-center items-center'>
-                <div className='m-auto p-6 gf:max-w-[95%] gf:mt-2 xxs:max-w-[90%] xxs:mt-2 xs:max-w-[83%] xs:mt-2 mt-2 sm:max-w-[80%] md:mt-0 xl:max-w-[67%]'>
+                <div className='m-auto p-6 max-w-[95%] md:mt-0 xl:max-w-[67%] text-left md:text-center'>
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together.</p>
-                    <h1 className='py-4 text-gray-700'>
+                    <h1 className='pt-4 md:pt-0 md:py-4 text-gray-700'>
                         Hi, I&apos;m <span className='text-lite-blue'>William,</span>
                     </h1>
-                    <h1 className='py-2 text-gray-700'>
+                    <h1 className='md:py-2 text-gray-700'>
                         a Front-End Web Developer
                     </h1>
                     <div>

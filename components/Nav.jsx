@@ -101,7 +101,7 @@ const Nav = () => {
                             })
                             }
                         </ul>
-                        <div className='gf:pt-[5rem] xxs:pt-[8rem] pt-[10rem]'>
+                        <div className='absolute bottom-6 left-6 right-8'>
                             <p className=' uppercase tracking-widest text-lite-blue font-medium'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <Link href='https://www.linkedin.com/in/williamcareylocke/' rel='noopener norefferer' target='_blank'>
