@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const About = () => {
     return (
-        <div id='about' className='w-full p-2 flex items-center xl:pt-[20rem] xl:pb-[10rem]'>
+        <div id='about' className='w-full p-6 mx-auto flex items-center xl:pt-[20rem] xl:pb-[10rem] max-w-[95%]'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest py-4 text-lite-blue'>About</p>
@@ -25,7 +25,7 @@ const About = () => {
                         <p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects </p>
                     </Link>
                 </div>
-                <div className='w-full h-auto m-auto shadow-xl bg-white shadow-gray-400 rounded-xl flex items-center justify-center p-4 lg:lg:hover:scale-105 ease-in duration-300 border border-black/5'>
+                <div className='w-full h-auto m-auto shadow-xl bg-white shadow-gray-400 rounded-xl flex items-center justify-center lg:lg:hover:scale-105 ease-in duration-300 border border-black/5'>
                     <Image
                         src={workRemoteImg}
                         alt='A cozy outdoor work remote setup surrounded by tropical nature.'

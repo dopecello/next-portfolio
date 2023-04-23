@@ -40,7 +40,7 @@ const Skills = () => {
     ]
 
     return (
-        <div id='skills' className='w-full xl:h-screen py-9 px-2 xl:pt-[20rem] xl:pb-[19rem]'>
+        <div id='skills' className='max-w-[95%] xl:h-screen py-9 px-6 mx-auto xl:pt-[20rem] xl:pb-[19rem]'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
                 <p className='text-xl tracking-widest uppercase text-lite-blue py-6'>Skills</p>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
