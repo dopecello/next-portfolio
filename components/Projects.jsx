@@ -9,7 +9,7 @@ const Projects = () => {
 
     const projItemArr = [
         { title: "Deep Thoughts", alt: "Deep Thoughts Social Media", tech: "MERN Stack, GraphQL, Bootstrap", bgImg: deepThoughts, projectURL: "https://williamlocke-portfolio.vercel.app", githubURL: "https://github.com/dopecello/deep-thoughts", id: 1 },
-        { title: "MealFind", alt: "MealFind", tech: "TypeScript, Next.js, RESTful API, SQL", bgImg: mealfind, projectURL: "https://meal-find.vercel.app", githubURL: "https://github.com/dopecello/meal-find", id: 3 },
+        { title: "MealFind", alt: "MealFind", tech: "TypeScript, Next.js, Prisma, PostgreSQL", bgImg: mealfind, projectURL: "https://meal-find.vercel.app", githubURL: "https://github.com/dopecello/meal-find", id: 3 },
         { title: "Opus Music Worldwide", alt: "Opus Music Worldwide", tech: "TypeScript, OAuth, Firebase, TailwindCSS", bgImg: opus, projectURL: "https://opus-worldwide.vercel.app", githubURL: "https://github.com/dopecello/music-jobs", id: 4 },
         { title: "SupaHot Online Marketplace", alt: "SupaHot Online Marketplace", tech: "CRA, GraphQL, MongoDB", bgImg: firesale, projectURL: "https://supa-hot-firesales.herokuapp.com/", githubURL: "https://github.com/brian-gee/supa-hot-firesale", id: 2 },
     ]
