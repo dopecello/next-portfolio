@@ -9,8 +9,8 @@ const Main = () => {
         <div id='home' className='md:pt-[19rem] pt-[5rem] w-full text-center z-1'>
             <div className='w-full h-full mx-auto flex justify-center items-center'>
                 <div className='m-auto p-6 max-w-[95%] md:mt-0 xl:max-w-[67%] text-left md:text-center'>
-                    <p className='uppercase text-sm tracking-widest text-gray-600 p-4'>Let&apos;s build something together.</p>
-                    <h1 className='pt-4 md:pt-0 md:py-4 text-gray-700'>
+                    <p className='uppercase text-sm tracking-widest text-gray-600 pb-2 md:pb-4'>Let&apos;s build something together.</p>
+                    <h1 className='pt-2 md:pt-0 md:py-4 text-gray-700'>
                         Hi, I&apos;m <span className='text-lite-blue'>William,</span>
                     </h1>
                     <h1 className='md:py-2 text-gray-700'>
