@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Main = () => {
     return (
 
-        <div id='home' className='md:pt-[19rem] pt-[5rem] w-full text-center z-1'>
+        <div id='home' className='md:pt-[13rem] pt-[5rem] w-full text-center z-1'>
             <div className='w-full h-full mx-auto flex justify-center items-center'>
                 <div className='m-auto p-6 max-w-[95%] md:mt-0 xl:max-w-[67%] text-left md:text-center'>
                     <p className='uppercase text-sm tracking-widest text-gray-600 pb-2 md:pb-4'>Let&apos;s build something together.</p>
