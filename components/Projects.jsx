@@ -1,8 +1,8 @@
 import React from 'react'
-import firesale from '../public/static/images/firesale-final.png'
+import samf from '../public/static/images/samf-site.png'
 import ProjectItem from './ProjectItem'
 import mealfind from '../public/static/images/mealfind.png'
-import opus from '../public/static/images/opus.png'
+import tictac from '../public/static/images/tictactoe.png'
 import  deepThoughts from '../public/static/images/deepthoughts-sized.png'
 
 const Projects = () => {
@@ -10,8 +10,8 @@ const Projects = () => {
     const projItemArr = [
         { title: "Deep Thoughts", alt: "Deep Thoughts Social Media", tech: "MERN Stack, GraphQL, Bootstrap", bgImg: deepThoughts, projectURL: "https://mysterious-hollows-06431.herokuapp.com/", githubURL: "https://github.com/dopecello/deep-thoughts", id: 1 },
         { title: "MealFind", alt: "MealFind", tech: "TypeScript, Next.js, Prisma, PostgreSQL", bgImg: mealfind, projectURL: "https://meal-find.vercel.app", githubURL: "https://github.com/dopecello/meal-find", id: 3 },
-        { title: "Opus Music Worldwide", alt: "Opus Music Worldwide", tech: "TypeScript, OAuth, Firebase, TailwindCSS", bgImg: opus, projectURL: "https://opus-worldwide.vercel.app", githubURL: "https://github.com/dopecello/music-jobs", id: 4 },
-        { title: "SupaHot Online Marketplace", alt: "SupaHot Online Marketplace", tech: "CRA, GraphQL, MongoDB", bgImg: firesale, projectURL: "https://supa-hot-firesales.herokuapp.com/", githubURL: "https://github.com/brian-gee/supa-hot-firesale", id: 2 },
+        { title: "Tic-Tac-Toe", alt: "Tic-Tac-Toe", tech: "JavaScript, Vite, TailwindCSS", bgImg: tictac, projectURL: "https://gg-tictactoe.netlify.app/", githubURL: "https://github.com/dopecello/gg-tictactoe", id: 4 },
+        { title: "Saint Augustine Music Festival", alt: "Saint Augustine Music Festival", tech: "Astro.js, TypeScript, MDX", bgImg: samf, projectURL: "https://samf-site.vercel.app/", githubURL: "https://github.com/dopecello/samf-site", id: 2 },
     ]
 
     return (
