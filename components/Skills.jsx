@@ -31,7 +31,7 @@ const Skills = () => {
         { src: reactlogo, alt: "The React.js logo", h3: "React", id: 5 },
         { src: nextjslogo, alt: "The Next.js logo", h3: "Next", id: 6 },
         { src: astroLogo, alt: "The Astro.js logo", h3: "Astro", id: 7 },
-        { src: svelte, alt: "The Svelte.js logo", h3: "Svelte", id: 9 },
+        { src: svelte, alt: "The Svelte.js logo", h3: "Svelte", id: 8 },
         { src: nodejslogo, alt: "The Node.js logo", h3: "Node", id: 9 },
         { src: gcplogo, alt: "The Google Cloud Platform logo", h3: "GCP", id: 10 },
         { src: tailwindlogo, alt: "The Tailwind CSS logo", h3: "Tailwind", id: 11 },

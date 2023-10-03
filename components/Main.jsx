@@ -15,11 +15,11 @@ const Main = () => {
                         Hi, I&apos;m <span className='text-lite-blue'>William,</span>
                     </h1>
                     <h1 className='md:py-2 text-gray-700'>
-                        a Front-End Web Developer
+                        a Junior Software Engineer
                     </h1>
                     <div>
                         <p className='py-4 text-gray-600'>
-                            I&apos;m a web developer pivoting from a background in Cello Performance in order to create practical,
+                            I&apos;m a Junior Software Engineer pivoting from a background in Cello Performance in order to create practical,
                             efficient programming solutions for companies and commercial music artists.
                             I&apos;m often appointed as a project leader by management to spearhead team initiatives that need to satisfy short deadlines,
                             while preserving technical quality and excruciating attention to detail.
