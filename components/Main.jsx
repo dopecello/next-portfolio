@@ -26,7 +26,7 @@ const Main = () => {
                         </p>
                     </div>
                     <div className='flex flex-col items-start sm:items-center justify-center mb-4'>
-                        <a href='https://drive.google.com/file/d/1O-1icalY4HvFXg0eLN21lbwMgbzdIBlh/view?usp=share_link' className='bg-gray-900 font-medium text-white py-2 px-4 rounded flex items-center mb-4'>
+                        <a href='https://drive.google.com/file/d/1LUj4Q4zGlzEiMV--LzIp4tALXCLkpvKj/view?usp=sharing' className='bg-gray-900 font-medium text-white py-2 px-4 rounded flex items-center mb-4'>
                             Resume
                             <span className='ml-1'>
                                 <BiLinkExternal />
