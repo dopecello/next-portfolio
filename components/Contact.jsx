@@ -29,7 +29,7 @@ const Contact = () => {
                                 <p>Front-End Developer</p>
                                 <p className='pt-4'>I am available for full-time positions worldwide.</p> <p>Contact me and let&apos;s get started.</p>
                                 <div>
-                                    <p className='uppercase pt-8'>Connect with me</p>
+                                    <p className='uppercase font-semibold pt-8'>Connect with me</p>
                                     <div className='flex items-center justify-between py-4'>
                                         <Link href='https://www.linkedin.com/in/williamcareylocke/' rel='noopener norefferer' target='_blank'>
                                             <div className='rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer duration-200 border border-black/10 transition-colors hover:bg-navy-blue hover:text-white'>
