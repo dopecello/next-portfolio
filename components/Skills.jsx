@@ -16,6 +16,10 @@ import mysqlLogo from '../public/static/images/mysql-transformed.png'
 import sqlizeLogo from '../public/static/images/sqlize-resize.png'
 import mongoLogo from '../public/static/images/mongo.png'
 import mongooselogo from '../public/static/images/mongoose.png'
+import astroLogo from '../public/static/images/astro.png'
+import javaLogo from '../public/static/images/javalogo.png'
+import cSharpLogo from '../public/static/images/csharp.png'
+import svelte from '../public/static/images/svelte.png'
 
 const Skills = () => {
 
@@ -26,16 +30,20 @@ const Skills = () => {
         { src: tslogo, alt: "The TypeScript logo", h3: "TypeScript", id: 4 },
         { src: reactlogo, alt: "The React.js logo", h3: "React", id: 5 },
         { src: nextjslogo, alt: "The Next.js logo", h3: "Next", id: 6 },
-        { src: nodejslogo, alt: "The Node.js logo", h3: "Node", id: 7 },
-        { src: gcplogo, alt: "The Google Cloud Platform logo", h3: "GCP", id: 8 },
-        { src: tailwindlogo, alt: "The Tailwind CSS logo", h3: "Tailwind", id: 9 },
-        { src: bulmalogo, alt: "The Bulma logo", h3: "Bulma", id: 10 },
-        { src: firebaselogo, alt: "The Firebase logo", h3: "Firebase", id: 11 },
-        { src: graphqlLogo, alt: "The Graph QL logo", h3: "GraphQL", id: 12 },
-        { src: mysqlLogo, alt: "The MySQL logo", h3: "MySQL", id: 13 },
-        { src: sqlizeLogo, alt: "The Sequelize ORM logo", h3: "Sequelize", id: 14 },
-        { src: mongoLogo, alt: "The MongoDB logo", h3: "Mongo", id: 15 },
-        { src: mongooselogo, alt: "The Mongoose ODM logo", h3: "Mongoose", id: 16 },
+        { src: astroLogo, alt: "The Astro.js logo", h3: "Astro", id: 7 },
+        { src: svelte, alt: "The Svelte.js logo", h3: "Svelte", id: 9 },
+        { src: nodejslogo, alt: "The Node.js logo", h3: "Node", id: 9 },
+        { src: gcplogo, alt: "The Google Cloud Platform logo", h3: "GCP", id: 10 },
+        { src: tailwindlogo, alt: "The Tailwind CSS logo", h3: "Tailwind", id: 11 },
+        { src: bulmalogo, alt: "The Bulma logo", h3: "Bulma", id: 12 },
+        { src: javaLogo, alt: "The Java logo", h3: "Java", id: 13 },
+        { src: cSharpLogo, alt: "The C-Sharp logo", h3: 'C#', id: 14 },
+        { src: firebaselogo, alt: "The Firebase logo", h3: "Firebase", id: 15 },
+        { src: graphqlLogo, alt: "The Graph QL logo", h3: "GraphQL", id: 16 },
+        { src: mysqlLogo, alt: "The MySQL logo", h3: "MySQL", id: 17 },
+        { src: sqlizeLogo, alt: "The Sequelize ORM logo", h3: "Sequelize", id: 18 },
+        { src: mongoLogo, alt: "The MongoDB logo", h3: "Mongo", id: 19 },
+        { src: mongooselogo, alt: "The Mongoose ODM logo", h3: "Mongoose", id: 20 },
         // {src: "/../public/static/images/mui.png", alt: "The Material UI logo", h3: "Material UI"},
     ]
 
